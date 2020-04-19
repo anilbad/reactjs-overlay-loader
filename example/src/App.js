@@ -1,10 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import { ExampleComponent } from 'reactjs-overlay-loader'
-import 'reactjs-overlay-loader/dist/index.css'
+import { ReactjsOverlayLoader } from "reactjs-overlay-loader";
+import "reactjs-overlay-loader/dist/index.css";
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return (
+    <ReactjsOverlayLoader
+      loaderContent={<span style={{ color: "#ffffff" }}> Please wait...</span>}
+      style={{
+        backgroundColor: "rgba(233, 30, 99, 0.81)"
+      }}
+      isActive
+    >
+      <span role="img" aria-label="smile">
+        😄
+      </span>
+    </ReactjsOverlayLoader>
+  );
+};
 
-export default App
+export default App;
