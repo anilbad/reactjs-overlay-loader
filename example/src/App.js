@@ -1,7 +1,6 @@
 import React from "react";
 
-import { ReactjsOverlayLoader } from "reactjs-overlay-loader";
-import "reactjs-overlay-loader/dist/index.css";
+import ReactjsOverlayLoader from "reactjs-overlay-loader";
 
 const App = () => {
   return (

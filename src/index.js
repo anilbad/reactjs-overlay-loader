@@ -70,16 +70,14 @@ const getIcon = iconType => {
   return icon;
 };
 
-export const ReactjsOverlayLoader = ({
+function ReactjsOverlayLoader({
   children,
   isActive,
   style,
   loaderContent,
   iconType = "Spinning",
   icon = null
-}) => {
-  console.log(getIcon(iconType));
-
+}) {
   return (
     <div className="rjol">
       {children}
@@ -100,4 +98,5 @@ export const ReactjsOverlayLoader = ({
       )}
     </div>
   );
-};
+}
+export default ReactjsOverlayLoader;
