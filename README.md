@@ -4,9 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/reactjs-overlay-loader.svg)](https://www.npmjs.com/package/reactjs-overlay-loader) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<img width="100%" alt="reactjs-overlay-loader" src="https://user-images.githubusercontent.com/4344538/88505489-39b01680-cff5-11ea-8a31-8902a3f5c959.gif">
+<img width="65%" alt="reactjs-overlay-loader" src="https://user-images.githubusercontent.com/4344538/88505489-39b01680-cff5-11ea-8a31-8902a3f5c959.gif">
 
-<img width="100%" alt="reactjs-overlay-loader" src="https://user-images.githubusercontent.com/4344538/88506019-a546b380-cff6-11ea-8355-80aaa0368328.gif">
+<img width="65%" alt="reactjs-overlay-loader" src="https://user-images.githubusercontent.com/4344538/88506019-a546b380-cff6-11ea-8355-80aaa0368328.gif">
 
 ## Install
 
@@ -82,6 +82,10 @@ const App = () => {
 ## Various loader options
 
 <img src="https://user-images.githubusercontent.com/4344538/88528609-7ba08300-d01c-11ea-84d0-a1bee58cd67f.gif" width="50%" />
+
+```
+Spinning, Audio, BallTriangle, Bars, Circles, Grid, Hearts, Oval, Puff, Rings, TailSpin, ThreeDots
+```
 
 ## API
 
